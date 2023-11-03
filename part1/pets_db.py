@@ -67,3 +67,4 @@ def create_db():
     con.executemany("INSERT INTO animals VALUES(?, ?, ?, ?)", ANIMALS)
     con.executemany("INSERT INTO people VALUES(?, ?, ?, ?)", PEOPLE)
     con.executemany("INSERT INTO people_animals VALUES(?, ?)", PEOPLE_ANIMALS)
+
